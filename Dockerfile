@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8000
 
 # Set the command to run the Flask app
-CMD ["gunicorn", "-w", "1", "-t", "0", "-b", "0.0.0.0:8000", "main:app"]
+CMD ["gunicorn", "-w", "1", "-t", "0", "-b", "0.0.0.0:8000", "app.main:app"]
