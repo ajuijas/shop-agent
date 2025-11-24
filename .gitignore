@@ -1,0 +1,8 @@
+# cache and indexes created while running the app
+cache/
+index/
+
+# pycache files
+__pycache__/
+__pycache__/*.pyc
+
